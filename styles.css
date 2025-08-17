@@ -1,0 +1,97 @@
+/* ================================
+   General Reset & Base Styling
+================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Helps keep layout consistent */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+}
+
+/* ================================
+   Header
+================================ */
+.site-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: 3px solid #2d6fb9;
+    margin-bottom: 20px;
+}
+
+/* ================================
+   Navigation
+================================ */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin-bottom: 20px;
+    border: 2px solid #222;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-right: 1px solid #555;
+}
+
+.navbar a:last-child {
+    border-right: none;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* ================================
+   Card Sections
+================================ */
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ================================
+   Buttons
+================================ */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: 2px solid #4a90e2;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #4a90e2;
+}
+
+/* ================================
+   Footer
+================================ */
+.site-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    border-top: 3px solid #222;
+}
